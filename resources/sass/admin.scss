@@ -1,0 +1,196 @@
+
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//AdminLTE
+@import "~font-awesome/scss/font-awesome.scss";
+
+@import "~admin-lte/dist/css/AdminLTE.css";
+@import "~admin-lte/dist/css/skins/_all-skins.css";
+
+.table {
+
+
+    th{
+        border-top: 1px solid #716e6e !important;
+        border-bottom: 1px solid #716e6e !important;
+    }
+
+    tbody > tr > td {
+        border-bottom: 1px solid #716e6e !important;
+    }
+
+}
+
+.form-signin {
+    max-width: 380px;
+    padding: 15px 35px 45px;
+    margin: 10% auto;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    .form-signin-heading,
+    .checkbox {
+        margin-bottom: 30px;
+    }
+
+    .checkbox {
+        font-weight: normal;
+    }
+
+    .form-control {
+        position: relative;
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+
+        &:focus {
+            z-index: 2;
+        }
+    }
+
+    input[type="text"] {
+        margin-bottom: -1px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    input[type="password"] {
+        margin-bottom: 20px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+}
+
+.job-post{
+
+    margin-left: -11px;
+
+    label {
+        margin: 2px 0 0 0;
+        font-weight: 300;
+    }
+    input[type="radio"] {
+        margin: 0 4px 0 4px;
+    }
+
+    input[type="text"] {
+        margin-bottom: 10px;
+    }
+
+    .col-sm-2 {
+        max-width:17%;
+    }
+}
+
+.datepicker-days table{
+    border-collapse: separate;
+    border-spacing: 14px;
+
+    .dropdown-menu {
+        margin: 17.125rem 0 0;
+    }
+
+    th {
+        text-align: center !important;
+    }
+
+    td {
+        cursor: pointer !important;
+    }
+}
+/*html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100% !important;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100% !important;
+    height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-fluid:before,
+.container-fluid:after {
+    content: " ";
+    display: table;
+}
+
+.container-fluid:after {
+    clear: both;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+#side-area-main {
+    background-color: #3cb777;
+    height: 960px;
+    padding: 25px;
+}
+
+#side-area-main #side-list {
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: Nunito, sans-serif;
+}
+
+#side-area-main #side-list a {
+    color: #fff;
+}
+
+#side-area-main #side-list a:hover {
+    color: #3097D1;
+    text-decoration: none;
+}
+
+.wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+*/
